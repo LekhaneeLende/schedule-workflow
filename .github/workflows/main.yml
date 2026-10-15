@@ -1,8 +1,8 @@
 name: schedule workflow
 
 on:
- schedule:
-   - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   runs-script:
@@ -12,4 +12,5 @@ jobs:
       - name: print message
         run: echo "schedule workflow execute"
 
-               
+    
+       
