@@ -2,14 +2,14 @@ name: schedule workflow
 
 on:
  schedule:
-   - cron: " 0 0 * * * "
+   - cron: "0 0 * * *"
 
 jobs:
   runs-script:
     runs-on: ubuntu-latest
 
-steps:
-  - name: print message
-      run: echo "schedule workflow execute"
+      steps:
+          - name: print message
+               run: echo "schedule workflow execute"
     
        
