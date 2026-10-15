@@ -8,8 +8,8 @@ jobs:
   runs-script:
     runs-on: ubuntu-latest
 
-      steps:
-          - name: print message
-               run: echo "schedule workflow execute"
-    
-       
+    steps:
+      - name: print message
+        run: echo "schedule workflow execute"
+
+               
